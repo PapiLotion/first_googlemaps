@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 80%;
+        margin: 0;
+        padding: 0;
+      }
+
+        .data_billede{
+            height: 100px;
+            width: 140px;
+
+        }
+    </style>
+  </head>
+  <body>
+
+
+
+
+
+    <div id="map"></div>
+
+
+      <template id="info_template">
+         <div id="info_boks">
+           <h3 class="data_navn">OVERSKRIFT</h3>
+           <p class="data_info">VÆRD_AT_VIDE</p>
+             <img class="data_billede" src="mymarker-01.svg">
+        </div>
+     </template>
+
+
+
+    <!--<script>
+
+
+
+//
+//
+//        var marker2 = new google.maps.Marker({
+//          position: myLatLngJob,
+//          map: map,
+//          title: 'På job!',
+//          icon: 'mymarker-01.svg'
+//        });
+//
+//
+//        marker2.addListener('click', function() {
+//          map.setZoom(19);
+//          map.setCenter(marker2.getPosition());
+//          console.log("Her arbejder jeg")
+//          infowindow.open(map, marker2);
+//        });
+//
+//        marker.addListener('click', function() {
+//          map.setZoom(19);
+//            map.setCenter(myLatLng);
+//          map.setCenter(marker.getPosition());
+//          console.log("Idreætsparken");
+//
+//        var klon = document.querySelector("#info_template").content.cloneNode(true);
+//
+//
+//          //klon.querySelector(".info_boks").innerHTML = ;
+//          infowindowparken.setContent( klon );
+//          infowindowparken.open(map, marker);
+//
+//        });
+//
+//
+//        //infowindow
+//            var infowindow = new google.maps.InfoWindow({
+//                content: "Få lidt lækker mad!",
+//                position: (myLatLngJob)
+//            });
+//
+//
+//            var infowindowparken = new google.maps.InfoWindow({
+//                //content: ".infoboks",
+//                position: (myLatLng)
+//            });
+
+
+
+
+
+    </script>-->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <script src="script.js"></script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKLdig6t-mftwS0jH0NsUVbO2cvsoWlow&callback=initMap"
+    async defer></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

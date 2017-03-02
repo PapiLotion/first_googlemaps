@@ -1,0 +1,44 @@
+
+
+
+[
+        {
+            "id": "parken",
+            "koordinater": {"lat":55.702568,"lng":12.571690} ,
+            "overskrift": "Telia Parken",
+            "info": "bla bla bla",
+            "billede": "parken"
+
+
+        },
+
+
+
+        {
+            "id": "petersborg",
+            "koordinater": {"lat":55.687307,"lng":12.592884} ,
+            "overskrift": "Café Petersborg",
+            "info": "bla bla bla blaaa",
+            "billede": "cafe-petersborg"
+
+
+        },
+
+
+       {
+            "id": "ancher",
+            "koordinater": {"lat":57.726096,"lng":10.596978} ,
+            "overskrift": "Anchers Hus",
+            "info": "Et meget flot hus. Her har boet en kunstner. Han var sød og god til at male...",
+            "billede": "anchershus"
+
+
+        }
+
+
+
+
+
+
+        ]
+
